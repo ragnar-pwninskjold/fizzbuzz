@@ -53,7 +53,7 @@ function fizzBuzz (limit) {
 //do fizzBuzz while counter < limit, also document write this to the screen each time
 
 
-for (i = 1; i < limit; i++) {
+for (i = 1; i <= limit; i++) {
 
 		if (i % 3 == 0 && i % 5 == 0) {
 			document.write("FizzBuzz" + "<br>"+ "<br>");
